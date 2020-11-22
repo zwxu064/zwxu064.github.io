@@ -55,12 +55,16 @@
     border-bottom: 1px solid $border-color;
   }
 
-  p, li, dl {
-    font-size: 1em;
+  p, li, dl, div {
+    font-size: 15px;
+    text-align: justify;
   }
 
   .tab { margin-left: 10px; }
-
+  .alignleft { float: left; }
+  .alignright { float: right; }
+  .alignlefttab { margin-left: 10px; float: left; }
+  .alignrighttight { float: right;}
 
   /* paragraph indents */
   p {
@@ -76,7 +80,7 @@
   }
 
   a {
-    text-decoration: underline;
+    text-decoration: none;
 
     &:hover {
       text-decoration: underline;
@@ -85,7 +89,9 @@
         box-shadow: 0 0 10px rgba(#000, 0.25);
       }
     }
+
   }
+
 
   dt {
     margin-top: 1em;

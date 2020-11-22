@@ -135,7 +135,7 @@
 
   @include breakpoint($large) {
     margin-top: 10px;
-    margin-bottom: 7px;
+    margin-bottom: 10px;
   }
 }
 
@@ -143,8 +143,8 @@
   margin: 0;
 
   @include breakpoint($large) {
-    margin-top: 7px;
-    margin-bottom: 7px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 }
 
@@ -152,7 +152,7 @@
   margin: 0;
 
   @include breakpoint($large) {
-    margin-top: 7px;
+    margin-top: 10px;
     margin-bottom: 20px;
   }
 }
