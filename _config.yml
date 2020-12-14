@@ -86,9 +86,9 @@ author:
   location         : "Australian National University"
   employer         :
   pubmed           :
-  googlescholar    : "https://scholar.google.com/citations?user=jFZrrs0AAAAJ&hl=en&authuser=1"
+  googlescholar    :
   email            : zhiwei.xu{at}anu.edu.au
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  researchgate     : # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
   codepen          :
