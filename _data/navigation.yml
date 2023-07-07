@@ -15,26 +15,11 @@ main:
   - title: "Awards"
     url: http://zwxu064.github.io/index.html#awards
 
+  - title: "Services"
+    url: http://zwxu064.github.io/index.html#services
+
   - title: "Skills"
     url: http://zwxu064.github.io/index.html#skills
     
   - title: "Others"
     url: http://zwxu064.github.io/index.html#others
-
-#  - title: "Talks"
-#    url: /talks/
-#
-#  - title: "Teaching"
-#    url: /teaching/
-#
-#  - title: "Portfolio"
-#    url: /portfolio/
-#
-#  - title: "Blog Posts"
-#    url: /year-archive/
-#
-#  - title: "CV"
-#    url: /cv/
-#
-#  - title: "Guide"
-#    url: /markdown/
