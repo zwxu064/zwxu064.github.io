@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Zhiwei Xu"
   avatar           : "../images/zhiwei.png"
-  bio              : "Research Fellow"
-  location         : "ANU"
+  bio              :
+  location         :
   employer         :
   pubmed           :
   googlescholar    :
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : zhiwei-xu-064
+  linkedin         :
   orcid            :
   pinterest        :
   soundcloud       :
