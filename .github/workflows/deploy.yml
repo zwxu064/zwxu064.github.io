@@ -46,7 +46,7 @@ jobs:
         env:
           API_TOKEN_GITHUB: ${{ secrets.PAGE_DEPLOY_KEY_IMAC }}
         with:
-          source-directory: "public"
+          source-directory: "private"
           destination-github-username: "zwxu064"
           destination-repository-name: "zwxu064.github.io"
           user-email: "zwxu064@gmail.com"
