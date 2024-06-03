@@ -49,7 +49,7 @@ jobs:
           JEKYLL_ENV: production
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/actions-gh-pages@v3
         with:
           deploy_key: ${{ secrets.PAGE_DEPLOY_KEY_IMAC }} # secret 中设置好私钥，名称和上面设置的一样
           external_repository: zwxu064/zwxu064.github.io  # Page 仓库地址
