@@ -86,7 +86,7 @@ author:
   location         : Canberra, AU
   employer         :
   pubmed           :
-  googlescholar    : # http://scholar.google.com.au/citations?hl=en&user=Jdm7asoAAAAJ
+  googlescholar    : http://scholar.google.com.au/citations?hl=en&user=Jdm7asoAAAAJ
   email            : zwxu064 at gmail.com
   researchgate     : # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : https://www.linkedin.com/in/zhiwei-xu-064
   orcid            :
   pinterest        :
   soundcloud       :
