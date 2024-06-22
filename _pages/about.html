@@ -7,6 +7,14 @@ redirect_from:
   - /about/
   - /about.md
 ---
+<style>
+ul.ddn{li{list-style-type: '✽'; padding-inline-start: 1ch;}}
+ul.diffusion{li{list-style-type: '✾'; padding-inline-start: 1ch;}}
+ul.mrf{li{list-style-type: '✤'; padding-inline-start: 1ch;}}
+ul.pruning{li{list-style-type: '❁'; padding-inline-start: 1ch;}}
+ul.generic{li{list-style-type: '❊'; padding-inline-start: 1ch;}}
+</style>
+
 
 <p> I specialize in computer vision, machine learning, and image processing.
   Since moving to Australia in 2017, I have received my PhD in computer vision and machine learning from the Australian National University and Data61, CSIRO.
@@ -15,90 +23,111 @@ redirect_from:
 </p>
 
 <h2 id="publications">Publications</h2>
-  <div>Topics: <span style="color:red">&#x2022;</span>deep declarative networks
-    <span style="color:green">&#x2022;</span>diffusion models
-    <span style="color:orange">&#x2022;</span>Markov random fields
-    <span style="color:blue">&#x2022;</span>neuron pruning
-    <span style="color:fuchsia">&#x2022;</span>generic computer vision.
+  <div>Topics: <span style="color:black">✽</span>deep declarative networks
+    <span style="color:black">✾</span>diffusion models
+    <span style="color:black">✤</span>Markov random fields
+    <span style="color:black">❁</span>neuron pruning
+    <span style="color:black">❊</span>generic topics.
   </div>
 
   <h3 class="tab">Papers and Preprints</h3>
-  <ul>
-
-  <li><div><span style="font-size:0.96em">Joint active and passive beamforming for IRS-assisted monostatic backscatter systems: an unsupervised learning approach</span></div>
+  <ul class="generic">
+  <li style="color:black"><div><span style="font-size:0.96em">Joint active and passive beamforming for IRS-assisted monostatic backscatter systems: an unsupervised learning approach</span></div>
       <div><span style="color:black;font-size:1em">Sahar Idrees, Salman Durrani, <strong>Zhiwei Xu</strong>, Xiaolun Jia, and Xiangyun Zhou</span></div>
       <div><span style="color:black"><i>IEEE Transactions on Machine Learning in Communications and Networking</i>, 2024</span></div>
       <div><span style="color:black">[ <a style="color: inherit;" href="https://ieeexplore.ieee.org/abstract/document/10401960" target="_blank">preprint</a> ]</span></div>
   </li>
+  </ul>
 
-  <li style="color:green"><div><span style="font-size:1em;color:black">IMPUS: image morphing with perceptually-uniform sampling using diffusion models</span></div>
+  <ul class="diffusion">
+  <li style="color:black"><div><span style="font-size:1em;color:black">IMPUS: image morphing with perceptually-uniform sampling using diffusion models</span></div>
       <div><span style="color:black;font-size:1em">Zhaoyuan Yang, Zhengyang Yu, <strong>Zhiwei Xu</strong>, Jaskirat Singh, Jing Zhang, Dylan Campbell, Peter Tu, and Richard Hartley</span></div>
       <div><span style="color:black"><i>International Conference on Learning Representations</i>, 2024</span></div>
       <div><span style="color:black">[ <a style="color: inherit;" href="https://arxiv.org/abs/2311.06792" target="_blank">preprint</a>
 	| <a style="color: inherit;" href="https://github.com/gol2022/impus" target="_blank">code</a> ]</span></div>
   </li>
+  </ul>
 
-  <li style="color:fuchsia"><div><span style="color:black">Adversarial purification with the manifold hypothesis</span></div>
+  <ul class="generic">
+  <li style="color:black"><div><span style="color:black">Adversarial purification with the manifold hypothesis</span></div>
       <div><span style="color:black;font-size:1em">Zhaoyuan Yang, <strong>Zhiwei Xu</strong>, Jing Zhang, Richard Hartley, and Peter Tu</span></div>
       <div><span style="color:black"><span style="color:black"><i>Association for the Advancement of Artificial Intelligence</i>, 2024</span></div>
       <div><span style="color:black">[ <a style="color: inherit;" href="https://arxiv.org/abs/2210.14404" target="_blank">preprint</a>
 	| <a style="color: inherit;" href="https://github.com/GoL2022/AdvPFY" target="_blank">code</a> ]</span></div>
   </li>
+  </ul>
 
-  <li style="color:green"><div><span style="color:black">Probabilistic and semantic descriptions of image manifolds and their applications</span></div>
+  <ul class="diffusion">
+  <li style="color:black"><div><span style="color:black">Probabilistic and semantic descriptions of image manifolds and their applications</span></div>
       <div><span style="color:black;font-size:0.96em">Peter Tu, Zhaoyuan Yang, Richard Hartley, <strong>Zhiwei Xu</strong>, Jing Zhang, Yiwei Fu,
 	  Dylan Campbell, Jaskirat Singh, and Tianyu Wang</span></div>
       <div><span style="color:black"><i>Frontiers in Computer Science</i>, volume 5, 2023</span></div>
       <div><span style="color:black">[ <a style="color: inherit;"  href="https://arxiv.org/abs/2307.02881" target="_blank">preprint</a> ]</span></div>
   </li>
+  </ul>
 
-  <li style="color:red"><div><span style="color:black">PMaF: deep declarative layers for principal matrix features</span></div>
+  <ul class="ddn">
+  <li style="color:black"><div><span style="color:black">PMaF: deep declarative layers for principal matrix features</span></div>
       <div><span style="color:black;font-size:1em"><strong>Zhiwei Xu</strong>, Hao Wang, Yanbin Liu, and Stephen Gould</span></div>
       <div><span style="color:black"><i>International Conference on Machine Learning Workshop</i>, 2023</span></div>
       <div><span style="color:black">[ <a style="color: inherit;" href="https://arxiv.org/abs/2306.14759" target="_blank">preprint</a>
 	| <a style="color: inherit;" href="https://github.com/zwxu064/PMaF.git" target="_blank">code</a>
         | <a style="color: inherit;" href="../files/PMaF_poster.pdf" target="_blank">poster</a> ]</span></div>
   </li>
+  </ul>
 
-  <li style="color:red"><div><span style="color:black">Towards understanding gradient approximation in equality constrained deep declarative networks</span></div>
+  <ul class="ddn">
+  <li style="color:black"><div><span style="color:black">Towards understanding gradient approximation in equality constrained deep declarative networks</span></div>
       <div><span style="color:black;font-size:1em">Stephen Gould, Ming Xu, <strong>Zhiwei Xu</strong>, and Yanbin Liu</span></div>
       <div><span style="color:black"><i>International Conference on Machine Learning Workshop</i>, 2023</span></div>
       <div><span style="color:black">[ <a style="color: inherit;" href="https://arxiv.org/abs/2306.14054" target="_blank">preprint</a>
 	| <a style="color: inherit;" href="https://github.com/anucvml/ddn/tree/master/apps/approxgrad" target="_blank">code</a> ]</span></div>
   </li>
+  </ul>
 
-  <li style="color:red"><div><span style="color:black">Exploiting problem structure in deep declarative networks: two case studies</span></div>
+  <ul class="ddn">
+  <li style="color:black"><div><span style="color:black">Exploiting problem structure in deep declarative networks: two case studies</span></div>
       <div><span style="color:black;font-size:1em">Stephen Gould, Dylan Campbell, Itzik Ben-Shabat, Chamin Hewa Koneputugodage, and <strong>Zhiwei Xu</strong></span></div>
       <div><span style="color:black"><i>Association for the Advancement of Artificial Intelligence Workshop</i>, 2022</span></div>
       <div><span style="color:black">[ <a style="color: inherit;" href="https://arxiv.org/abs/2202.12404" target="_blank">preprint</a> 
 	| <a style="color: inherit;" href="https://github.com/anucvml/ddn" target="_blank">code</a> ]</span></div>
   </li>
+  </ul>
 
-  <li style="color:red"><div><span style="color:black">ViLESS: least squares on sphere for video classification</span></div>
+  <ul class="ddn">
+  <li style="color:black"><div><span style="color:black">ViLESS: least squares on sphere for video classification</span></div>
       <div><span style="color:black;font-size:1em">Hao Wang, <strong>Zhiwei Xu</strong>, and Stephen Gould</span></div>
       <div><span style="color:black"><i>Technical Report</i>, 2021</span></div>
   </li>
+  </ul>
 
-  <li style="color:fuchsia"><div><span style="color:black">DDDNet-V2: towards unsupervised depth estimation via dual-pixel sensor</span></div>
+  <ul class="generic">
+  <li style="color:black"><div><span style="color:black">DDDNet-V2: towards unsupervised depth estimation via dual-pixel sensor</span></div>
       <div><span style="color:black;font-size:1em">Liyuan Pan, <strong>Zhiwei Xu</strong>, Liu Liu, Yan Yang, Miaomiao Liu, and Richard Hartley</span></div>
       <div><span style="color:black"><i>Technical Report</i>, 2021</span></div>
   </li>
+  </ul>
 
-  <li style="color:blue"><div><span style="color:black">RANP: resource aware neuron pruning at initialization for 3D CNNs</span></div>
+  <ul class="pruning">
+  <li style="color:black"><div><span style="color:black">RANP: resource aware neuron pruning at initialization for 3D CNNs</span></div>
       <div><span style="color:black;font-size:1em"><strong>Zhiwei Xu</strong>, Thalaiyasingam Ajanthan, Vibhav Vineet, and Richard Hartley</span></div>
       <div><span style="color:black"><i>arXiv:2103.08457 (an extension of 3DV2020 paper)</i>, 2021</span></div>
       <div><span style="color:black">[ <a style="color: inherit;" href="https://arxiv.org/abs/2103.08457" target="_blank">preprint</a>
 	| <a style="color: inherit;" href="https://github.com/zwxu064/RANP.git" target="_blank">code</a> ]</span></div>
   </li>
+  </ul>
 
-  <li style="color:fuchsia"><div><span style="color:black">Refining semantic segmentation with superpixel by transparent initialization and sparse encoder</span></div>
+  <ul class="generic">
+  <li style="color:black"><div><span style="color:black">Refining semantic segmentation with superpixel by transparent initialization and sparse encoder</span></div>
       <div><span style="color:black;font-size:1em"><strong>Zhiwei Xu</strong>, Thalaiyasingam Ajanthan, and Richard Hartley</span></div>
       <div><span style="color:black"><i>arXiv:2010.04363</i>, 2020</span></div>
       <div><span style="color:black">[ <a style="color: inherit;" href="https://arxiv.org/abs/2010.04363" target="_blank">preprint</a> 
 	 | <a style="color: inherit;" href="https://github.com/zwxu064/TransInit" target="_blank">code</a> ]</span></div>
   </li>
+  </ul>
 
-  <li style="color:blue"><div><span style="color:black">RANP: resource aware neuron pruning at initialization for 3D CNNs</span></div>
+  <ul class="pruning">
+  <li style="color:black"><div><span style="color:black">RANP: resource aware neuron pruning at initialization for 3D CNNs</span></div>
       <div><span style="color:black;font-size:1em"><strong>Zhiwei Xu</strong>, Thalaiyasingam Ajanthan, Vibhav Vineet, and Richard Hartley</span></div>
       <div><span style="color:black"><i>International Conference on 3D Vision</i>, pages 180-189, 2020 (<span style="color:black">Oral</span>)</span></div>
       <div><span style="color:black">[ <a style="color: inherit;" href="https://arxiv.org/abs/2010.02488" target="_blank">preprint</a>
@@ -106,15 +135,18 @@ redirect_from:
         | <a style="color: inherit;" href="./files/3DV2020_slides.pdf" target="_blank">slides</a>
         | <span style="color:black">best student paper</span> ]</span></div>
   </li>
-        
-  <li style="color:orange"><div><span style="color:black">Fast and differentiable message passing on pairwise Markov random fields</span></div>
+  </ul>
+
+  <ul class="mrf">
+  <li style="color:black"><div><span style="color:black">Fast and differentiable message passing on pairwise Markov random fields</span></div>
       <div><span style="color:black;font-size:1em"><strong>Zhiwei Xu</strong>, Thalaiyasingam Ajanthan, and Richard Hartley</span></div>
       <div><span style="color:black"><i>Asian Conference on Computer Vision</i>, pages 523-540, 2020 (<span style="color:black">Oral</span>)</span></div>
       <div><span style="color:black">[ <a style="color: inherit;" href="https://arxiv.org/abs/1910.10892" target="_blank">preprint</a>
 	| <a style="color: inherit;" href="https://github.com/zwxu064/MPLayers.git" target="_blank">code</a>
         | <a style="color: inherit;" href="./files/ACCV2020_slides.pdf" target="_blank">slides</a> ]</span></div>
   </li>
-  
+  </ul>
+
   <li><div>Interesting components detection for space satellites from ISAR image via feature probabilistic estimation</div>
       <div><span style="color:black;font-size:1em"><strong>Zhiwei Xu</strong>, Lei Zhang, Mengdao Xing, Karen M. von Deneen, and Lei Ran</span></div>
       <div><i>IET Image Processing</i>, 9(6), pages 506-515, 2015</div>
