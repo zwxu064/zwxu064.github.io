@@ -7,6 +7,7 @@ redirect_from:
   - /about/
   - /about.md
 ---
+
 <style>
 ul.ddn{li{list-style-type: '✽'; padding-inline-start: 1ch;}}
 ul.diffusion{li{list-style-type: '✾'; padding-inline-start: 1ch;}}
@@ -14,8 +15,15 @@ ul.mrf{li{list-style-type: '✤'; padding-inline-start: 1ch;}}
 ul.pruning{li{list-style-type: '❁'; padding-inline-start: 1ch;}}
 ul.generic{li{list-style-type: '❊'; padding-inline-start: 1ch;}}
 ul{li{padding-inline-start: 1ch;}}
-</style>
 
+summary::marker {
+  content: "";
+}
+
+details summary::-webkit-details-marker {
+  display:none;
+}
+</style>
 
 <p> I specialize in computer vision, machine learning, and image processing.
   Over the years, I have received my PhD in computer vision and machine learning from the Australian National University and Data61, CSIRO.
@@ -136,9 +144,10 @@ ul{li{padding-inline-start: 1ch;}}
       <div><i>Annual Radar Conference of Xidian University</i>, pages 57-66, 2013 (<i>Paper Proceedings</i>)</div>
     </li>
   </ul>
-  
+
+<p>
 <details>
-  <summary>More</summary>
+  <summary><font size="2">[More]</font></summary>
   <ul class="generic">
   <li style="color:black"><div><span style="font-size:0.96em">Joint active and passive beamforming for IRS-assisted monostatic backscatter systems: an unsupervised learning approach</span></div>
       <div><span style="color:black;font-size:1em">Sahar Idrees, Salman Durrani, <strong>Zhiwei Xu</strong>, Xiaolun Jia, and Xiangyun Zhou</span></div>
@@ -205,6 +214,7 @@ ul{li{padding-inline-start: 1ch;}}
   </li>
   </ul>
 </details>
+</p>
 
 <h3 class="tab">Patents</h3>
   <ul>
