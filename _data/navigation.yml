@@ -3,11 +3,11 @@ main:
   - title: "Biography"
     url: http://zwxu064.github.io/index.html
 
-  - title: "Services"
-    url: http://zwxu064.github.io/index.html#services
-
   - title: "Publications"
     url: http://zwxu064.github.io/index.html#publications
+
+  - title: "Services"
+    url: http://zwxu064.github.io/index.html#services
     
   - title: "Awards"
     url: http://zwxu064.github.io/index.html#awards
