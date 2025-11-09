@@ -33,12 +33,26 @@ ul{li{padding-inline-start: 1ch;}}
 
   <h3 class="tab">Papers and Preprints</h3>
   <ul class="generic">
-  <li style="color:black"><div><span style="font-size:1em">DAA*: deep angular A star for image-based path planning</span></div>
+  <li style="color:black">
+	  <div><span style="font-size:1em">DAA*: deep angular A star for image-based path planning</span></div>
       <div><span style="color:black;font-size:1em"><strong>Zhiwei Xu</strong></span></div>
       <div><span style="color:black"><i>International Conference on Computer Vision</i>, 2025</span></div>
-      <div><span style="color:black">[ <a style="color: inherit;" target="_blank" href="https://www.arxiv.org/abs/2507.09305">preprint</a>
-	| <a style="color: inherit;" href="https://github.com/zwxu064/DAAStar" target="_blank">code</a>
-	| <a style="color: inherit;" href="images/ICCV2025_DAAStar_poster.png" target="_blank">poster</a>]</span></div>
+      <div>
+		  <span style="color:black">[
+	          <a style="color: inherit;" target="_blank" href="https://www.arxiv.org/abs/2507.09305">preprint</a> |
+			  <a style="color: inherit;" href="https://github.com/zwxu064/DAAStar" target="_blank">code</a> |
+			  <a style="color: inherit;" href="images/ICCV2025_DAAStar_poster.png" target="_blank">poster</a> |
+			  <span class="toggle-btn" onclick="toggleBibtex('xu:iccv2025')" style="cursor:pointer; text-decoration:underline;">bib</span>
+      	  ]</span>
+	  </div>
+	  <div id="xu:iccv2025" class="bibtex-content" style="display:none; background:#f6f8fa; border-left:3px solid #0366d6; padding:10px; margin-top:5px; font-family:monospace;">
+          @inproceedings{xu:iccv2025,<br>
+	          &nbsp;&nbsp;title = {DAA*: Deep Angular A Star for Image-Based Path Planning},<br>
+	          &nbsp;&nbsp;author = {Zhiwei Xu},<br>
+	          &nbsp;&nbsp;booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},<br>
+	          &nbsp;&nbsp;year = {2025}<br>
+		  }
+	  </div>
   </li>
   </ul>
 
@@ -285,3 +299,17 @@ ul{li{padding-inline-start: 1ch;}}
 
     <li><div>Pets: Bobby (former: fishes, dog, cat, rabbits, snakes, lizard, birds, tortoises, silkworms)</div>    
 </ul>
+
+<script>
+function toggleBibtex(id) {
+    const el = document.getElementById(id);
+    const btn = event.target;
+    if (el.style.display === "none" || el.style.display === "") {
+        el.style.display = "block";
+        btn.textContent = "Hide BibTeX";
+    } else {
+        el.style.display = "none";
+        btn.textContent = "BibTeX";
+    }
+}
+</script>
